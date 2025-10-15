@@ -1,0 +1,98 @@
+.display-cars {
+    padding: 60px 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: flex-end;
+}
+
+.another {
+    font-size: 50px;
+    width: 630px;
+    font-weight: 700;
+    padding: 0%;
+}
+
+.view-all {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.cars-card {
+    display: grid;                /* Enable grid layout */
+    grid-template-columns: 33% 33% 33%;  /* 3 equal columns */
+    grid-template-rows: auto;     /* Row height adjusts automatically */
+    gap: 24px;
+    width: 100%;
+}
+
+.indi-card{
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    gap: 40px;
+}
+
+.car-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.model, .rate {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.rate {
+    align-items: flex-end;
+}
+
+.model {
+    align-items: flex-start;
+}
+
+.car-features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.high {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.purple {
+    color: #5937E0;
+}
+
+.low{
+    font-size: 16px;
+    color: #00000099;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #00000099;
+}
+
+.indi-card button{
+    padding: 13px 28px;
+    border-radius: 12px;
+    border: none;
+    color: #FAFAFA;
+    background-color: #5937E0;
+}

@@ -1,0 +1,29 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feature-card {
+    padding: 60px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.indi-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.indi-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.indi-card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px 40px;
+}
